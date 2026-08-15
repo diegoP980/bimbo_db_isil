@@ -7,7 +7,7 @@ create login login_bimbo_DIEGO with password = '12345';
 create login login_bimbo_PAMELA with password = '12345';
 create login login_bimbo_CAMILLE with password = '12345';
 create login login_bimbo_JUAN with password = '12345';
-create login login_bimbo_gael with password = '!Has$FñI';
+create login login_bimbo_gael with password = '!Has$Fï¿½I';
 create login login_bimbo_yasmina with password = 'w$!tRp1@';
 create login login_bimbo_izan with password = 'sr#21mg&';
 create login login_bimbo_hanane with password = 'nDe3TQg&';
@@ -46,17 +46,13 @@ use Panaderia_Bimbo;
 create role rol_lectura;
 create role rol_ventas;
 create role rol_almacen;
---create role rol_facturacion;
---create role rol_contabilidad;
 create role rol_supervisor;
 create role rol_auditor;
 create role rol_dbmanager;
---create role rol_dba;
---create role rol_owner;
 
--- ==============================================
--- PERMISOS:
--- ==============================================
+    -- ==============================================
+    -- PERMISOS:
+    -- ==============================================
 
 -- ----------------------------------------------------------
 -- 1. LECTURA
